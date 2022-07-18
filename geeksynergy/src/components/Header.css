@@ -1,0 +1,26 @@
+.headerdiv {
+    background-color:  rgb(42, 119, 206);
+    display: flex;
+    padding: 5px 0;
+    overflow-x: hidden;
+    position: static;
+    width: 100%;
+   color: white;
+   top: 0;
+   height: auto;
+   justify-content: space-around;
+align-items: center;
+}
+
+.btn{
+    padding:10px 30px;
+    float:left;
+    margin-left:40px;
+    background-color: #045F5F;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+}
+.btn:hover{
+    color:black;
+}
