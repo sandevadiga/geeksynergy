@@ -16,16 +16,17 @@ function App() {
     <AuthProvider>
     <BrowserRouter>
             <Header/>
-            <Routes>
-            <Route path="/" element={<ProtectedRoute />}/>
-            <Route path="/" element={<Home />} exact />
-            <Route path="/home" element={<Home />} />
-            </Routes>
-
+          
             <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/Companyinfo" element={<CompanyInfo />} />
+           </Routes>
+
+           <Routes>
+           <Route path="/" element={<ProtectedRoute />}/>
+           <Route path="/" element={<Home />} exact />
+           <Route path="/home" element={<Home />} />
            </Routes>
 
            

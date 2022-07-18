@@ -12,7 +12,7 @@ const {login} = useContext(AuthContext);
 
   const location =useLocation();
 
-		return login ?  <Outlet /> :<Navigate to="login"  state={{from :location}} /> ;
+		return login ?  <Outlet /> :<Navigate to="/login"  state={{from :location}} /> ;
 
 	}
 
